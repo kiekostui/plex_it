@@ -9,9 +9,6 @@ from datetime import datetime, date, timedelta, timezone
 
 # --- Configuration Constants ---
 
-AUTH_TOKEN = 'aBktaJghT8w_HWRJD12r'
-CH_URL_ROOT = 'https://epg.provider.plex.tv/library/parts/'
-CH_URL_SUFFIX = '.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token='
 REGION = os.environ.get('REGION')
 START_N_CHANNEL = 600
 DAYS = 3
