@@ -10,7 +10,6 @@ from datetime import datetime, date, timedelta, timezone
 # --- Configuration Constants ---
 
 REGION = os.environ.get('REGION')
-START_N_CHANNEL = 600
 DAYS = 3
 
 
