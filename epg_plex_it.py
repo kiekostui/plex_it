@@ -3,6 +3,7 @@ import json
 import urllib.parse
 import sys
 import uuid
+import os
 import xml.etree.ElementTree as ET
 from datetime import datetime, date, timedelta, timezone
 
@@ -11,6 +12,7 @@ from datetime import datetime, date, timedelta, timezone
 AUTH_TOKEN = 'aBktaJghT8w_HWRJD12r'
 CH_URL_ROOT = 'https://epg.provider.plex.tv/library/parts/'
 CH_URL_SUFFIX = '.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token='
+REGION = os.environ.get('REGION')
 START_N_CHANNEL = 600
 DAYS = 3
 
@@ -30,6 +32,7 @@ def get_epg_data(date_string):
         'X-Plex-Client-Identifier':f'{client_uiid}',
         'X-Plex-Product': 'Plex Mediaverse',
         'X-Plex-Provider-Version': '6.5.0',
+        'X-Forwarded-For':f'{REGION}'
         }
     
     luma_url_parts = ['https://watch.plex.tv/it/api/luma?',
