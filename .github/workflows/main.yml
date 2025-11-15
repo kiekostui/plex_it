@@ -36,5 +36,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated EPG Update"
-          file_pattern: 'epg_plexit.xml'
+          file_pattern: 'epg_plex_it.xml'
           branch: main 
