@@ -12,6 +12,9 @@ from datetime import datetime, date, timedelta, timezone
 REGION = os.environ.get('REGION')
 DAYS = 3
 
+ip = REGION
+print(ip)
+
 
 # --- API request for epg data  ---
 
