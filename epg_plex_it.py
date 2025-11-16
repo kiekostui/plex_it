@@ -28,7 +28,7 @@ def get_epg_data(date_string):
         'X-Plex-Client-Identifier':f'{client_uiid}',
         'X-Plex-Product': 'Plex Mediaverse',
         'X-Plex-Provider-Version': '6.5.0',
-        'X-Forwarded-For':f'94.34.210.71'
+        'X-Forwarded-For':'94.34.210.71'
         }
     
     luma_url_parts = ['https://watch.plex.tv/it/api/luma?',
