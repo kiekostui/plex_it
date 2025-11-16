@@ -202,8 +202,8 @@ for d in range(1, DAYS + 1):
     
     date_request = date_request + time_delta
     
-    #with open('epg_master.json', 'w') as outfile:
-        #json.dump(epg_master_json, outfile, indent=4)
+#with open('epg_master.json', 'w') as outfile:
+    #json.dump(epg_master_json, outfile, indent=4)
         
 epg_xml = json_to_xml(epg_master_json)
     
