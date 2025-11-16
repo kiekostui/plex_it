@@ -3,9 +3,6 @@ name: EPG Plex it
 on:
   # Trigger manuale
   workflow_dispatch:
-  # Trigger schedulato (ogni giorno alle 02:00)
-  schedule:
-    - cron: '0 2 * * *'
 
 jobs:
   run-epg-plex-it:
