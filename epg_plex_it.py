@@ -25,9 +25,10 @@ def get_epg_data(date_string):
         'Accept-Language':'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7',
         'Origin': 'https://watch.plex.tv',
         'Referer': 'https://watch.plex.tv/live-tv?_gl=1*l36khh*_gcl_au*MjA1NDUwNDUwNy4xNzU4OTg1Njg5*_ga*MTg5MDEzMDM2NC4xNzU4OTg1Njg5*_ga_G6FQWNSENB*czE3NjMzMzQxNDMkbzMwJGcwJHQxNzYzMzM0MTQzJGo2MCRsMCRoMA..',
-        'X-Plex-Client-Identifier':f'{client_uiid}',
-        'X-Plex-Product': 'Plex Mediaverse',
-        'X-Plex-Provider-Version': '6.5.0',
+        'User-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+        #'X-Plex-Client-Identifier':f'{client_uiid}',
+        #'X-Plex-Product': 'Plex Mediaverse',
+        #'X-Plex-Provider-Version': '6.5.0',
         'X-Forwarded-For':'94.34.210.71'
         }
     
