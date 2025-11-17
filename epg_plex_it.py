@@ -39,7 +39,7 @@ def get_epg_data(date_string):
                      f'%2526metrics.pageLoadID%253D{page_load_id}',
                      '%2526screen.type%253DCustom',
                      '%2526key%253D%25252Flineups%25252Fplex%25252Fchannels',
-                     '%25253Fgenre%25253D',
+                     '%25253Fgenre%25253D%252526country%25253DIT',
                      f'%2526startDate%253D{date_string}'
                      ]
     
